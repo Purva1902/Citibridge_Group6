@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.citi.trade.dao.AutheticationDAOTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.853 sec <<< FAILURE! - in com.citi.trade.dao.AutheticationDAOTest
+testAuthenticateUser(com.citi.trade.dao.AutheticationDAOTest)  Time elapsed: 0.701 sec  <<< ERROR!
+org.powermock.reflect.exceptions.MethodNotFoundException: No methods matching the name(s) prepareStatement were found in the class hierarchy of class java.lang.Object.
+	at com.citi.trade.dao.AutheticationDAOTest.testAuthenticateUser(AutheticationDAOTest.java:35)
+
